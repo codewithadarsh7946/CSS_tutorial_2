@@ -1,0 +1,63 @@
+
+        * {
+            box-sizing: content-box;
+        }
+
+        body {
+            font-family: 'Noto Sans', sans-serif;
+
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid rgb(54, 26, 54);
+            margin: 33px auto;
+            background-color: rgb(243, 187, 138);
+        }
+
+        .item {
+            border: 3px solid green;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(235, 177, 177);
+        }
+
+
+        #fruit {
+            float: left;
+            width: 48%;
+            height: 441px;
+
+
+
+        }
+
+        #computer {
+
+            float: left;
+            width: 48%;
+            height: 441px;
+
+        }
+
+        #stationary {
+            /* float: left; */
+            /* clear: left; */
+            clear: both;
+            width: 98%
+        }
+
+        p,
+        h3 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            margin: auto;
+            width: 348px;
+            padding: 10px 10px;
+        }
+ 
